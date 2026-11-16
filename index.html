@@ -32,7 +32,7 @@
     <p class="contact">Pune, Maharashtra, India | +91 7083562981 | <a href="mailto:adeebs850@gmail.com">adeebs850@gmail.com</a><br><a href="https://www.linkedin.com/in/adeeb-shaikh-106352201">linkedin.com/in/adeeb-shaikh-106352201</a> | <a href="https://github.com/Adeeb11">github.com/Adeeb11</a></p>
     <p class="headline">Software Engineer, Forward Deployed Engineering | Enterprise Logistics Applications | Angular, Ionic, C#, ASP.NET Core, SQL Server</p>
     <h2>Professional Summary</h2>
-    <p>Software Engineer in a Forward Deployed Engineering role with 3.5 years of experience building enterprise logistics and transportation software at Rafai Technologies, progressing from feature development to technical ownership of the WebTrans application ecosystem, a platform serving 5–6 clients across web and mobile. Full-stack background across Angular web applications, the R-Connect Ionic/Capacitor mobile app, C# and ASP.NET Core APIs, SQL Server stored procedures and SSRS reporting, including legacy ASP.NET and VB.NET systems. Resolved a recurring production outage within three days of assignment, released a multi-client version of the mobile app from a single build, and built AI-assisted invoice scanning with a Google Gemini vision model (pending release). Carries team-lead responsibilities for a development team: assigning tasks, training and unblocking developers.</p>
+    <p>Software Engineer in a Forward Deployed Engineering role with 3.5 years of experience building enterprise logistics and transportation software at Rafai Technologies, progressing from feature development to technical ownership of the WebTrans application ecosystem, a platform serving 5–6 clients across web and mobile. Full-stack background across Angular web applications, the R-Connect Ionic/Capacitor mobile app, C# and ASP.NET Core APIs, SQL Server stored procedures and SSRS reporting, including legacy ASP.NET and VB.NET systems. Resolved a recurring production outage within three days of assignment, released a multi-client version of the mobile app from a single build, and built AI-assisted invoice scanning with a Google Gemini vision model (pending release). Carries tech-lead responsibilities for the development team: project structure, hosting and application security, plus assigning tasks, training and unblocking developers.</p>
     <h2>Technical Skills</h2>
     <ul>
       <li><strong>Languages:</strong> C#, TypeScript, JavaScript, SQL, VB.NET, HTML5, CSS3</li>
@@ -40,17 +40,19 @@
       <li><strong>Mobile:</strong> Ionic, Capacitor (Android), Xamarin (legacy maintenance)</li>
       <li><strong>Backend:</strong> ASP.NET Core, ASP.NET Web API, .NET MVC, .NET Framework (ASP.NET 4.5), Entity Framework, RESTful APIs, JSON, XML</li>
       <li><strong>Database and Reporting:</strong> SQL Server, stored procedures, SQL connection management, SSRS</li>
-      <li><strong>Production Engineering:</strong> IIS application-pool troubleshooting, request throttling, print queueing, exception handling</li>
+      <li><strong>Hosting and Production Engineering:</strong> IIS sites and application pools, domains and SSL/HTTPS, application-pool troubleshooting, request throttling, print queueing, exception handling</li>
       <li><strong>Auth and Security:</strong> OAuth 2.0, JWT authentication, role-based access control, API security</li>
       <li><strong>Integrations:</strong> Google Drive API, Google Maps, WhatsApp API messaging, email automation</li>
       <li><strong>AI:</strong> Google Gemini vision model (invoice data extraction); AI-assisted development with Claude, Google Gemini and Antigravity, GPT and OpenCode; open-weight models (Qwen, GLM, DeepSeek); prompt engineering, iterative prompt loops and subagent-driven workflows</li>
-      <li><strong>Tools:</strong> GitHub, Postman, Jira, unit testing</li>
+      <li><strong>Tools:</strong> Visual Studio, Visual Studio for Mac, VS Code, Android Studio, Xcode, Git, GitHub, Postman, Jira, unit testing</li>
     </ul>
     <h2>Professional Experience</h2>
     <h3>Rafai Technologies Pvt Ltd — Pune, Maharashtra</h3>
     <p class="role"><strong>Software Engineer – Forward Deployed Engineering Role</strong> | October 2026 – Present</p>
     <ul>
       <li>Assigned Forward Deployed Engineer responsibilities with technical ownership of the WebTrans enterprise logistics application ecosystem spanning Angular web, the R-Connect Ionic mobile app, C#/.NET APIs and SQL Server, serving 5–6 clients.</li>
+      <li>Act as technical lead for the development team (without formal title): define project structure for the Angular web, Ionic mobile and C#/.NET API codebases, including module layout, API solution structure and shared components.</li>
+      <li>Manage application hosting on IIS, including sites, application pools, domains, SSL certificates and client deployments, and own application security covering HTTPS, authentication, role-based access and API token handling.</li>
       <li>Resolved, within three days of assignment, a production issue in which excessive concurrent SSRS report requests from lorry-receipt printing were frequently stopping the IIS application pool during peak business hours: throttled requests to the SSRS server with a counted in-flight threshold and added exception handling in the print path, with no recurrence since the fix.</li>
       <li>In the same fix, gave each concurrent request its own managed SQL connection with proper disposal across the lorry-receipt entry and printing code, added a print queue that controls simultaneous printing without losing jobs, and separated print-data preparation from printer dispatch.</li>
       <li>Redesigned and released R-Connect, the WebTrans mobile app, so one build serves multiple clients: a client code entered at registration calls a new client-configuration API (replacing a legacy API) that returns service URL, branding, document-upload endpoints, latest app version and a force-update flag.</li>
